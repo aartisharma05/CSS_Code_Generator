@@ -53,7 +53,7 @@ const App: React.FC = () => {
   return (
     <>
       <Header />
-      <div className="container">
+      <div className="container sm:flex sm:flex-col lg:flex-row">
         <div className="controls">
           <div className="color-picker">
             <Typography sx={{ p: 2 }}>Shadow Color</Typography>
